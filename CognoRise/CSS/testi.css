@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+ .sec_title
+ {
+  width: 100%;
+  text-align: center;
+  /* margin-top: 5px; */
+  
+ }
+ .sec_title h1
+ {
+ 
+  padding-top: 100px !important;
+  color:rgb(177, 177, 182);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .sec_title p
+ {
+  color: #706c1f;
+  /* text-shadow: 1px 1px 1px #d70000d5; */
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  
+.wrap{
+  width: 100%;
+  height: 600px;
+  background: url('../Images/Banner/ss.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+
+}
+.review_box
+{
+    width: 90%;
+    max-width: 600px;
+    height: 300px;
+    border-radius: 10px; 
+    border: 5px solid #666218;
+    box-shadow: -10px -10px 50px rgba(108, 104, 22, 0.5);
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+ 
+ .slide_card
+{
+    height: 300px;
+    padding: 40px;
+    box-sizing: border-box;
+    /* background-color: rgb(255, 249, 249); */
+    border-radius: 10px;
+    position: relative;
+    color: #777;  
+    background-color: #e4e4ffdc;
+    
+
+}
+.slide_card::before
+{
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0f0f72;
+   
+}
+.profile
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.profile img
+{
+    width: 70px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 20px;
+    z-index: 1;
+}
+.profile h3
+{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 1.30em;
+ font-weight: bolder;
+ color: #666218;
+ /* line-height:0.10px; */
+ padding-top: 15px;
+}
+/*.profile h4
+{
+ font-family:Beau Rivage;
+ font-size: 1.20em;
+ font-weight: 600;
+  line-height:0.10px;
+} */
+.text-body p
+{
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 1.05em;
+ /* font-weight: bolder; */
+}
+
+@media screen and (max-width: 320px) 
+{
+  .profile h3
+  {
+    font-size: 0.70em;
+ 
+ }
+  .text-body p
+  {
+    /* color: aquamarine; */
+    font-size: 0.60em;
+ }
+ }
+#slide
+{
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+ .slide_bar
+ {
+    width: 40px;
+    height: 100%;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    background-color: #0f0f72;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+ }
+ .slide_bar img:hover
+ {
+    border-radius: 100%;
+  
+ }
+
+  /*  slider End */
+ 
+
+    /* <!--=============== Slider Start ===============--> */
+  
+
+ .bgT
+ {
+   background-color: rgb(14, 14, 100);
+   /* margin-top: 70px;  */
+   height: 100vh;
+ }
+ 
+ @media screen and (max-width: 970px) 
+ {
+  .bgT
+ {
+   height: 120vh;
+ }
+ }
+ @media screen and (max-width: 320px) 
+ {
+  .bgT
+ {
+   width: 100%;
+   height: 135vh;
+ 
+ }
+ }
+  
+    #news-slider {
+        left: 0px;
+        top: -30px;
+        position: relative;
+        width: 100%;
+        
+      }
+      #new-slider 
+      {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: -25px;
+      
+      }
+      
+      #news-slide
+      {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: -25px;
+      }
+      
+      #new-slide
+      {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: -25px;
+      }
+      #new-sliders
+      {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: -25px;
+      } 
+      #new-slid
+      {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: -25px;
+      } 
+      
+      #new-sli
+      {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: -25px;
+      } 
+      #new-sl
+      {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: -25px;
+      } 
+      
+      .text {
+        padding-top: 50px;
+        font-size: 4.31rem;
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        color:#b6b7b9;
+        text-transform: uppercase;
+      }
+      .txt
+      {
+        font-size: 1.31rem;
+        padding-top: 0px ;
+        color:#706c1f;
+      }
+      .post-slide {
+        height: 342px;
+        margin-left: 10px;
+        border-radius: 100%;
+        box-shadow: 0px 0px 8px black;
+        margin-top: 50px;
+      
+      }
+      
+      .post-slide .post-img {
+        position: relative;
+        overflow: hidden;
+        border-radius: 100%;
+        border: solid #706c1f ;
+        height: 342px;
+      }
+      
+      .post-slide .post-img img {
+        width: 100%;
+        height: 342px;
+        transform: scale(1, 1);
+        transition: transform 0.2s linear;
+      }
+      
+      .post-slide:hover .post-img img {
+        transform: scale(1.1, 1.1);
+      }
+      
+      .post-slide .over-layer {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        background: linear-gradient(-45deg, rgba(225, 224, 233, 0.719)0%, rgba(165, 165, 165, 0.6) 100%);
+        transition: all 0.50s linear;
+      }
+      
+      .post-slide:hover .over-layer {
+        opacity: 0.9;
+      
+      }
+     
+      
+      /* <!--=============== Slider End ===============--> */
+
+
+      /* About Start */
+      .about
+      {
+        background: url('../Images/Banner/8a9cf2aedb6d42972b2e47f253a88eec0fafe33f\ 8A9.jfif');
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+     .about .card
+     {
+      background-color: transparent;
+      border: 0;
+     }
+      .about h1
+      {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #666218;
+        padding-top: 80px!important;
+
+      }
+      .about img{
+        height: 300px;
+      
+       
+      }
+      .content
+      {
+        font-size: 0.70em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b6b7b9;
+        text-align: justify;
+        letter-spacing: 0.2px;
+        padding-top: 50px;
+      
+      }
+   
+      .content-1
+      {
+        font-size: 0.68em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b6b7b9;
+        text-align: justify;
+        padding-top: 50px;
+        
+      
+      }
+      /* About End */
